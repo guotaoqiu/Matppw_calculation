@@ -11,14 +11,14 @@ MatPPW requires **MATLAB Runtime R2024a** to run.
 **Download MATLAB Runtime:**
 - https://ww2.mathworks.cn/products/compiler/matlab-runtime.html?s_tid=srchtitle_site_search_1_runtime
 
-**On the HPC cluster**, the runtime is pre-installed at:
+**On the Parallel HPC cluster**, the runtime is pre-installed at:
 ```
 /public/software/apps/MATLAB/runtime/R2024a
 ```
 
 ## Getting the Executable
 
-The executable file (`matppw.zip`) is too large to upload to GitHub.
+The executable file (`matppw.zip`) is too large to upload to GitLab.
 
 You can find it on **VDrive2.0** at:
 ```
@@ -74,13 +74,8 @@ exit $exit_status
    qsub your_submission_script.sh
    ```
 
-## Input and Output
+## Manual
 
-- **Input format**: TOML configuration file
-- **Output format**: HDF5
+You can find the Chineses version of manual in the current repo: **Manual_manual_Chineses.pdf**.
 
-## System Requirements
-
-- **OS**: Linux (64-bit)
-- **MATLAB Runtime**: R2024a
-- **Required environment**: HPC cluster with PBS job scheduler
+For detailed install instructure, please refer to **/dist_matppw/readme.txt**.
